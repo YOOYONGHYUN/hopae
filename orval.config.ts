@@ -2,7 +2,7 @@ import { defineConfig } from "orval";
 
 export default defineConfig({
   hopae: {
-    input: { target: "https://esports-api.furo.one/api-json" },
+    input: { target: "https://studio-hopae.doslash.io/api-json" },
     output: {
       target: "./src/api/index.ts",
       schemas: "./src/api/model",
